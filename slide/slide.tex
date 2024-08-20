@@ -108,91 +108,93 @@
   \end{itemize}
 \end{frame}
 
-\section{KeTCindy Auto Installer}
+\subsection{KeTCindy Auto Installer}
 
 \begin{frame}[t]{\bfseries KeTCindy Auto Installer}
+  % Just press the install button to start using.
   \begin{columns}[T]
-    \begin{column}{0.7\linewidth}
-      \begin{itemize}
-        % \pause
-        \item Created using C\#(.NET Framework).
-              % \pause
-        \item Just a repeated download of the necessary software and execution of that file.
-              % \pause
-        \item Just press the install buton to start using.
-              % \pause
-              % \item Sometimes it doesn't work because of antivirus software, so it was currently being fixing as needed.
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.3\linewidth}
-      % \includegraphics[width=1.0\linewidth]{img/AutoInstaller/Diagram_of_Common_Language_Infrastructure.png}
+    % \begin{column}{0.7\linewidth}
+    %   \begin{itemize}
+    %     % \pause
+    %     \item Created using C\#(.NET Framework).
+    %           % \pause
+    %     \item Just a repeated download of the necessary software and execution of that file.
+    %           % \pause
+    %     \item Just press the install buton to start using.
+    %           % \pause
+    %           % \item Sometimes it doesn't work because of antivirus software, so it was currently being fixing as needed.
+    %   \end{itemize}
+    % \end{column}
+    \begin{column}{0.4\linewidth}
       \includegraphics[width=1.0\linewidth]{img/AutoInstaller/C_Sharp_Icon.png}
     \end{column}
-  \end{columns}
-\end{frame}
+    \begin{column}{0.4\linewidth}
+      \includegraphics[width=1.0\linewidth]{img/AutoInstaller/Microsoft_.NET_logo.png}
+    \end{column}
+    % \begin{column}{0.3\linewidth}
+    %   % \includegraphics[width=1.0\linewidth]{img/AutoInstaller/Diagram_of_Common_Language_Infrastructure.png}
 
-\begin{frame}{\bfseries KeTCindy Auto Installer}
-  \includegraphics[width=1.0\linewidth]{img/AutoInstaller/installer_1.png}
+    % \end{column}
+  \end{columns}
+  \includegraphics[width=1.0\linewidth]{img/AutoInstaller/Windows_logo.png}
 \end{frame}
 
 \begin{frame}{\bfseries KeTCindy Auto Installer}
   \includegraphics[width=1.0\linewidth]{img/AutoInstaller/installer_2.png}
 \end{frame}
 
-\section{KeTCindy Web Reference}
+\begin{frame}{\bfseries KeTCindy Auto Installer}
+  \includegraphics[width=1.0\linewidth]{img/AutoInstaller/installer_1.png}
+\end{frame}
+
+\subsection{KeTCindy Web Reference}
 
 \begin{frame}[t]{\bfseries KeTCindy Web Reference}
   \begin{itemize}
     \item Made using Docusaurus.
     \item This reference allows users move the graphs.
     \item A comfortable search system using Algolia.
-    \item KeTCindy Chat.
   \end{itemize}
-\end{frame}
-
-\begin{frame}[t]{\bfseries KeTCindy Web Reference}
-  \url{https://docusaurus.io/}
-  \begin{columns}[T]
-    \begin{column}{0.5\linewidth}
-      \centering
-      \begin{itemize}
-        \item Powered by MDX.
-        \item Built using React.
-        \item Ready for Translations.
-        \item Document versioning.
-        \item Content search.
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.5\linewidth}
-      \centering
-      \includegraphics[width=\linewidth]{img/DocQR.png}
-    \end{column}
-  \end{columns}
+  % \includegraphics[width=\linewidth]{img/Reference/Algolia_logo_full_blue.png}
 \end{frame}
 
 \begin{frame}[fragile]{\bfseries KeTCindy Web Reference}
+  Powered by MDX.
   \begin{lstlisting}
-  ## `Beziersmooth(name, node_list, [option] )`
-  節点間を３次ベジェ曲線でスムーズに結んだ曲線を描く.
-  #### 説明
-  節点をはさむ制御点は１直線上にとる（したがって, １つは半自由点で, 直線上しか動けない）.
-  制御点は自動的に配置される. その後, 節点や制御点を動かして, 描きたいものにする。  
+## `Beziersmooth(name, node_list, [option] )`
+節点間を３次ベジェ曲線でスムーズに結んだ曲線を描く.
+#### 説明
+節点をはさむ制御点は１直線上にとる（したがって, １つは半自由点で, 直線上しか動けない）.
+制御点は自動的に配置される. その後, 節点や制御点を動かして, 描きたいものにする。  
 
-  import Beziersmooth_draw from "!!raw-loader!./code/Beziersmooth/Draw.txt"
-  import Beziersmooth_init from "!!raw-loader!./code/Beziersmooth/Init.txt"
-  import Beziersmooth_KeyTyped from "!!raw-loader!./code/Beziersmooth/KeyTyped.txt"
+import Beziersmooth_draw from "!!raw-loader!./code/Beziersmooth/Draw.txt"
+import Beziersmooth_init from "!!raw-loader!./code/Beziersmooth/Init.txt"
+import Beziersmooth_KeyTyped from "!!raw-loader!./code/Beziersmooth/KeyTyped.txt"
 
-  <CodeBox 
-      Title="Beziersmooth"
-      Draw={Beziersmooth_draw}
-      Initialization={Beziersmooth_init}
-      KeyTyped={Beziersmooth_KeyTyped}
-      Frame={"/ResultImg/03_01_02_03/Beziersmoothjson.html"}
-  />
+<CodeBox 
+    Title="Beziersmooth"
+    Draw={Beziersmooth_draw}
+    Initialization={Beziersmooth_init}
+    KeyTyped={Beziersmooth_KeyTyped}
+    Frame={"/ResultImg/03_01_02_03/Beziersmoothjson.html"}
+/>
   \end{lstlisting}
 \end{frame}
 
-\section{KeTCindy Chat}
+\begin{frame}[t]{\bfseries KeTCindy Web Reference}
+  \url{https://ketcindy-web-docs.vercel.app/}
+  % \begin{columns}[T]
+  %   \begin{column}{0.5\linewidth}
+  %   \end{column}
+  %   \begin{column}{0.5\linewidth}
+  %     \includegraphics[width=\linewidth]{img/Reference/Referece_QR.png}
+  %   \end{column}
+  % \end{columns}
+  \centering
+  \includegraphics[scale=0.75]{img/Reference/Referece_QR.png}
+\end{frame}
+
+\subsection{KeTCindy Chat}
 
 \begin{frame}[t]{\bfseries KeTCindyChat}
   \begin{itemize}

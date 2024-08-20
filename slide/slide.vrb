@@ -1,20 +1,21 @@
 \frametitle{\bfseries KeTCindy Web Reference}
-\begin{lstlisting}
-  ## `Beziersmooth(name, node_list, [option] )`
-  節点間を３次ベジェ曲線でスムーズに結んだ曲線を描く.
-  #### 説明
-  節点をはさむ制御点は１直線上にとる（したがって, １つは半自由点で, 直線上しか動けない）.
-  制御点は自動的に配置される. その後, 節点や制御点を動かして, 描きたいものにする。
+Powered by MDX.
+  \begin{lstlisting}
+## `Beziersmooth(name, node_list, [option] )`
+節点間を３次ベジェ曲線でスムーズに結んだ曲線を描く.
+#### 説明
+節点をはさむ制御点は１直線上にとる（したがって, １つは半自由点で, 直線上しか動けない）.
+制御点は自動的に配置される. その後, 節点や制御点を動かして, 描きたいものにする。
 
-  import Beziersmooth_draw from "!!raw-loader!./code/Beziersmooth/Draw.txt"
-  import Beziersmooth_init from "!!raw-loader!./code/Beziersmooth/Init.txt"
-  import Beziersmooth_KeyTyped from "!!raw-loader!./code/Beziersmooth/KeyTyped.txt"
+import Beziersmooth_draw from "!!raw-loader!./code/Beziersmooth/Draw.txt"
+import Beziersmooth_init from "!!raw-loader!./code/Beziersmooth/Init.txt"
+import Beziersmooth_KeyTyped from "!!raw-loader!./code/Beziersmooth/KeyTyped.txt"
 
-  <CodeBox
-      Title="Beziersmooth"
-      Draw={Beziersmooth_draw}
-      Initialization={Beziersmooth_init}
-      KeyTyped={Beziersmooth_KeyTyped}
-      Frame={"/ResultImg/03_01_02_03/Beziersmoothjson.html"}
-  />
+<CodeBox
+    Title="Beziersmooth"
+    Draw={Beziersmooth_draw}
+    Initialization={Beziersmooth_init}
+    KeyTyped={Beziersmooth_KeyTyped}
+    Frame={"/ResultImg/03_01_02_03/Beziersmoothjson.html"}
+/>
   \end{lstlisting}

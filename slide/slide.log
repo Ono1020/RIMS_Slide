@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.5)  19 AUG 2024 15:58
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.12.5)  20 AUG 2024 22:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1039,106 +1039,104 @@ LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 1
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [4
 
-] [5
-
 ]
 File: img/AutoInstaller/C_Sharp_Icon.png Graphic file (type bmp)
 <img/AutoInstaller/C_Sharp_Icon.png>
- [6
+File: img/AutoInstaller/Microsoft_.NET_logo.png Graphic file (type bmp)
+<img/AutoInstaller/Microsoft_.NET_logo.png>
+File: img/AutoInstaller/Windows_logo.png Graphic file (type bmp)
+<img/AutoInstaller/Windows_logo.png>
+ [5
+
+]
+File: img/AutoInstaller/installer_2.png Graphic file (type bmp)
+<img/AutoInstaller/installer_2.png>
+
+Overfull \vbox (0.21114pt too high) detected at line 144
+ []
+
+[6
 
 ]
 File: img/AutoInstaller/installer_1.png Graphic file (type bmp)
 <img/AutoInstaller/installer_1.png>
  [7
 
-]
-File: img/AutoInstaller/installer_2.png Graphic file (type bmp)
-<img/AutoInstaller/installer_2.png>
-
-Overfull \vbox (0.21114pt too high) detected at line 140
- []
-
-[8
-
-] [9
-
-] [10
-
-]
-File: img/DocQR.png Graphic file (type bmp)
-<img/DocQR.png>
- [11
+] [8
 
 ]
 \openout4 = `slide.vrb'.
 
- (./slide.vrb) [12
+ (./slide.vrb) [9
 
-] [13
+]
+File: img/Reference/Referece_QR.png Graphic file (type bmp)
+<img/Reference/Referece_QR.png>
+ [10
 
 ]
 File: img/KeTCindyChat/appabout.png Graphic file (type bmp)
 <img/KeTCindyChat/appabout.png>
- [14
+ [11
 
 ]
 File: img/KeTCindyChat/appaboutGPT.png Graphic file (type bmp)
 <img/KeTCindyChat/appaboutGPT.png>
- [15
+ [12
 
 ]
 File: img/KeTCindyChat/appaboutGPT2.png Graphic file (type bmp)
 <img/KeTCindyChat/appaboutGPT2.png>
- [16
+ [13
 
 ]
 File: img/KeTCindyChat/appsampleGPT.png Graphic file (type bmp)
 <img/KeTCindyChat/appsampleGPT.png>
- [17
+ [14
 
 ]
 File: img/KeTCindyChat/KeTCindyChatGPT.png Graphic file (type bmp)
 <img/KeTCindyChat/KeTCindyChatGPT.png>
- [18
+ [15
 
-] [19
+] [16
 
 ]
 File: img/ActiveReport/20231015_p.png Graphic file (type bmp)
 <img/ActiveReport/20231015_p.png>
 File: img/ActiveReport/20231015.png Graphic file (type bmp)
 <img/ActiveReport/20231015.png>
- [20
+ [17
 
 ]
 File: img/ActiveReport/20231015_taiken1.jpg Graphic file (type bmp)
 <img/ActiveReport/20231015_taiken1.jpg>
 File: img/ActiveReport/20231015_taiken2.jpg Graphic file (type bmp)
 <img/ActiveReport/20231015_taiken2.jpg>
- [21
+ [18
 
 ]
 File: img/ActiveReport/20231015.png Graphic file (type bmp)
 <img/ActiveReport/20231015.png>
 File: img/ActiveReport/20231015_p.png Graphic file (type bmp)
 <img/ActiveReport/20231015_p.png>
- [22
+ [19
 
 ]
 File: img/ActiveReport/20240609_minimini1.jpg Graphic file (type bmp)
 <img/ActiveReport/20240609_minimini1.jpg>
 File: img/ActiveReport/20240609_minimini2.jpg Graphic file (type bmp)
 <img/ActiveReport/20240609_minimini2.jpg>
- [23
+ [20
 
 ]
 File: img/ActiveReport/20240803onepoint3.jpg Graphic file (type bmp)
 <img/ActiveReport/20240803onepoint3.jpg>
 File: img/ActiveReport/20240803onepoint4.jpg Graphic file (type bmp)
 <img/ActiveReport/20240803onepoint4.jpg>
- [24
+ [21
 
-] (./slide.toc) [25
+] (./slide.toc) [22
 
 ]
 \tf@nav=\write6
@@ -1157,15 +1155,15 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-23>
  ***********
 Package rerunfilecheck Info: File `slide.out' has not changed.
-(rerunfilecheck)             Checksum: 075E1E97E0DE37D20842BF95A7FFAB89;699.
+(rerunfilecheck)             Checksum: 2718FF86DA42BB3434FECE59BD20EA6C;742.
  ) 
 Here is how much of TeX's memory you used:
- 31052 strings out of 475056
- 613503 string characters out of 5768505
- 2096881 words of memory out of 5000000
- 52473 multiletter control sequences out of 15000+600000
+ 31067 strings out of 475056
+ 614394 string characters out of 5768505
+ 2068881 words of memory out of 5000000
+ 52486 multiletter control sequences out of 15000+600000
  577530 words of font info for 100 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 128i,13n,123p,1902b,1221s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,123p,1902b,1224s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on slide.dvi (25 pages, 78804 bytes).
+Output written on slide.dvi (22 pages, 70484 bytes).

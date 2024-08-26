@@ -17,5 +17,4 @@ import Beziersmooth_KeyTyped from "!!raw-loader!./code/Beziersmooth/KeyTyped.txt
     Initialization={Beziersmooth_init}
     KeyTyped={Beziersmooth_KeyTyped}
     Frame={"/ResultImg/03_01_02_03/Beziersmoothjson.html"}
-/>
-  \end{lstlisting}
+/>\end{lstlisting}
